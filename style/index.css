@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 100;
 }
 
 html, body {
@@ -143,4 +144,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header, img {
+    margin-right: 17%;
+}
+
+#shutter-speed, img{
+    display: block;
+    margin: 0 auto;
 }
