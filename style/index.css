@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 100;
+    /* border: 3px solid black !important; */
 }
 
 html, body {
@@ -149,13 +149,73 @@ footer nav a {
 header {
     display: flex;
     justify-content: center;
+    width: 60%;
+    margin-left: 19%;
 }
 
 header, img {
-    margin-right: 17%;
+    margin-right: 30%;
 }
 
 #shutter-speed, img{
     display: block;
-    margin: 0 auto;
+    margin: 1rem auto;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 200%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+a:last-of-type {
+    margin-left: ;
+}
+
+.middle-content .boxes .box:first-of-type {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
 }
