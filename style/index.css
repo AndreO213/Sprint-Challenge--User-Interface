@@ -146,6 +146,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Start of my code */
 header {
     display: flex;
     justify-content: center;
@@ -174,10 +175,6 @@ a {
     color: black;
     text-decoration: none;
     margin-left: 5%;
-}
-
-a:last-of-type {
-    margin-left: ;
 }
 
 .middle-content .boxes .box:first-of-type {
@@ -218,4 +215,125 @@ a:last-of-type {
 
 .middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
+}
+
+/* About Page Styling */
+
+#about-image {
+    width: 1000px; 
+    height: 200px; 
+    object-fit: cover;
+    object-position: 20% 10px;
+}
+
+/* Mobile Layout 500px Breakpoint */ 
+
+@media (max-width:500px) {
+    html body {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 20%;
+        margin: 5px auto;
+    }
+    .responsive {
+        width: 100%; 
+        height: auto;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .footer-links {
+        font-size: 2rem;
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        margin: 5%;
+        width: 100%;
+        padding: 10%;
+    }
+
+    footer {
+        width: 100%;
+        height: 13%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom-content .text-container h2 {
+            display: block;
+            width: 100%;
+            height: auto;
+            font-size: 1.5rem;
+            margin-top: 10%;
+        }
+    .bottom-content .text-container p {
+            display: block;
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+    .bottom-content {
+        display: block;
+    }
+
+    .middle-content h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 70%;
+        ma%;
+        font-size: 1.5rem;
+        box-sizing: border-box;
+    }
+
+    /* header .logo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    
+    header {
+        box-sizing: border-box;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: auto;
+     } */
+    
+    header  {
+         display: block;
+     }
+
+     .icon {
+         margin-bottom: 10%;
+         margin-left: 10%;
+     }
+
+     .middle-content {
+         border-bottom: none;
+     }
 }
